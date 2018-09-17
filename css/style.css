@@ -3,20 +3,54 @@ body {
   margin:0 auto;
   background: #fff;
   color: #666666;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
   overflow-x: hidden;
 }
 
+.header{
+  min-height: 154px;
+}
+
 .nav-item a{
-  color:919191;
+  color:#919191;
   text-align: center;
 }
 
-.nav-ico .fa-sign-in,
-.nav-ico .fa-shopping-bag{
+.nav-ico .fa{
+  font-size: 40px;
   border:1px solid black;
   border-radius: 100%;
-  padding: 15px;
+  padding: 7px;
   color:black;
   
 }
+
+.navbar{
+  min-height: 46px;
+  background-color: #dceef7;
+}
+.navbar a{
+  color:black;
+  font-weight: bold;
+}
+
+.navbar a:hover{
+  color:black;
+  font-weight: bold;
+}
+.carousel-caption{
+  color:black;
+  top:130px;
+}
+
+.carousel-caption h5{
+  font-weight: bold;
+  font-size: 36px;
+  margin-bottom: 28px;
+}
+
+.carousel-caption p{
+  color: #a4a5a6;
+  
+}
+
