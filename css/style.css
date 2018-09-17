@@ -1,0 +1,22 @@
+body {
+  max-width: 1230px;
+  margin:0 auto;
+  background: #fff;
+  color: #666666;
+  font-family: "Open Sans", sans-serif;
+  overflow-x: hidden;
+}
+
+.nav-item a{
+  color:919191;
+  text-align: center;
+}
+
+.nav-ico .fa-sign-in,
+.nav-ico .fa-shopping-bag{
+  border:1px solid black;
+  border-radius: 100%;
+  padding: 15px;
+  color:black;
+  
+}
