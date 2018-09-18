@@ -54,3 +54,35 @@ body {
   
 }
 
+.cardnews{
+  
+  max-height:310px;
+  width: 300px;
+}
+
+.title-block{
+  font-size: 3rem;
+  color: black;
+  font-weight: bold;
+}
+.card-title{
+  font-size: 1.20rem;
+  color: black;
+}
+
+.parallax-window {
+    min-height: 341px;
+    background: transparent;
+}
+
+
+.parallax-window .card-title{
+  font-size: 2rem;
+  color: black;
+}
+
+.fa-handshake-o,
+.fa-gift{
+  color: #0099d2;
+  font-size: 3rem;
+}
