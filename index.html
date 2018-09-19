@@ -4,9 +4,11 @@
 <head>
 
 
-  <!-- End: injected by Adguard -->
+  <script src="//local.adguard.com/adguard-ajax-api/injections/userscripts/Adguard Assistant?ts=63672949063743" type="text/javascript"></script>
+  <script src="//local.adguard.com/adguard-ajax-api/injections/userscripts/Adguard Popup Blocker?ts=63672949063743" type="text/javascript"></script>
+  <script src="//local.adguard.com/adguard-ajax-api/injections/content-script.js?ts=63672948743021&amp;domain=vfs-gce-eu-372-4.c9.io&amp;css=1&amp;js=1&amp;generic=1&amp;stealth=1" type="text/javascript"></script>
 
-  <!-- Start: injected by Adguard -->
+  <!-- End: injected by Adguard -->
   <script src="//local.adguard.com/adguard-ajax-api/injections/userscripts/Adguard Assistant?ts=63672771415980" type="text/javascript"></script>
   <script src="//local.adguard.com/adguard-ajax-api/injections/userscripts/Adguard Popup Blocker?ts=63672771415980" type="text/javascript"></script>
   <script src="//local.adguard.com/adguard-ajax-api/injections/content-script.js?ts=63672771414101&amp;domain=vfs-gce-eu-381-2.c9.io&amp;css=1&amp;js=1&amp;generic=1&amp;stealth=1" type="text/javascript"></script>
@@ -33,110 +35,112 @@
 
   <!--==========================
     Header
-  ============================-->
+    ============================-->
 
 
-  <div class="header">
-    <div class="row m-1">
-      <div class="col-sm align-self-center">
+    <div class="header">
+      <div class="row m-1">
+        <div class="col-sm align-self-center">
 
-        <a class="navbar-brand" href="#"><img src="img/Logo.png" 
-    alt="logo"></a>
+          <a class="navbar-brand" href="#"><img src="img/Logo.png" 
+            alt="logo"></a>
+          </div>
+
+          <div class="col-sm align-self-center ">
+            <form class="form-inline my-2 my-lg-0 flex-nowrap">
+              <input class="form-control mr-sm-0 w-100" type="search" placeholder="Tepe in to Search">
+              <button class="btn btn-primary my-2 my-sm-0 " type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+            </form>
+          </div>
+
+          <div class="col-sm col align-self-center mt-1 ">
+            <ul class="navbar-nav  flex-row justify-content-end">
+              <li class="nav-item m-3 ">
+                <a class="nav-ico" href="#"> <i class="fa fa-sign-in" aria-hidden="true"></i></a>
+                <a class="nav-link" href="#">Login<span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item m-3">
+                <a class="nav-ico" href="#"> <i class="fa fa-shopping-bag" aria-hidden="true"></i></a>
+                <a class="nav-link" href="#">My Bag</a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
 
-      <div class="col-sm align-self-center ">
-        <form class="form-inline my-2 my-lg-0 flex-nowrap">
-          <input class="form-control mr-sm-0 w-100" type="search" placeholder="Tepe in to Search">
-          <button class="btn btn-primary my-2 my-sm-0 " type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
-        </form>
-      </div>
 
-      <div class="col-sm col align-self-center mt-1 ">
-        <ul class="navbar-nav  flex-row justify-content-end">
-          <li class="nav-item m-3 ">
-            <a class="nav-ico" href="#"> <i class="fa fa-sign-in" aria-hidden="true"></i></a>
-            <a class="nav-link" href="#">Login<span class="sr-only">(current)</span></a>
+
+      <nav class="navbar flex-row d-flex justify-content-between ">
+
+        <a class="flex-sm-fill text-sm-center nav-link ml-5" href="#">Articies</a>
+        <a class="flex-sm-fill text-sm-center nav-link" href="#">Our Jobs</a>
+        <a class="flex-sm-fill text-sm-center nav-link" href="#">Deals</a>
+        <a class="flex-sm-fill text-sm-center nav-link" href="#">Fresh News</a>
+        <a class="flex-sm-fill text-sm-center nav-link" href="#">Portfolio</a>
+        <a class="flex-sm-fill text-sm-center nav-link" href="#">Contact</a>
+        <a class="flex-sm-fill text-sm-center nav-link" href="#">Our Shop</a>
+        <div class="navbar-nav flex-row justify-content-between sale mr-5">
+        <a class="flex-sm-fill text-sm-center nav-link mr-5" href="#">Sale</a>
+          <ul class="navbar-nav flex-row justify-content-between">
+          <li class=" m-2 " >
+            <a class="font-size" href="#">A</a>
           </li>
-          <li class="nav-item m-3">
-            <a class="nav-ico" href="#"> <i class="fa fa-shopping-bag" aria-hidden="true"></i></a>
-            <a class="nav-link" href="#">My Bag</a>
+          <li class="m-2">
+            <a class="font-size" href="#">A</a>
+          </li>
+          <li class="m-2">
+            <a class="font-size" href="#">A</a>
           </li>
         </ul>
       </div>
+    </nav>
+
+    <!--Slider-->
+
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Workspace</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,<br> do eiusmod tempor incididunt ut labore et dolore magna. </p>
+          </div>
+          <img class="d-block w-100" src="img/breather-196132.png" alt="First slide">
+        </div>
+        <div class="carousel-item">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Workspace</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,<br> do eiusmod tempor incididunt ut labore et dolore magna. </p>
+          </div>
+          <img class="d-block w-100" src="img/breather-196132.png" alt="Second slide">
+        </div>
+        <div class="carousel-item">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Workspace</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,<br> do eiusmod tempor incididunt ut labore et dolore magna. </p>
+          </div>
+          <img class="d-block w-100" src="img/breather-196132.png" alt="Third slide">
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
     </div>
-  </div>
-
-
-
-  <nav class="flex-row d-flex justify-content-between navbar ">
-    <a class="flex-sm-fill text-sm-center nav-link" href="#">Articies</a>
-    <a class="flex-sm-fill text-sm-center nav-link" href="#">Our Jobs</a>
-    <a class="flex-sm-fill text-sm-center nav-link" href="#">Deals</a>
-    <a class="flex-sm-fill text-sm-center nav-link" href="#">Fresh News</a>
-    <a class="flex-sm-fill text-sm-center nav-link" href="#">Portfolio</a>
-    <a class="flex-sm-fill text-sm-center nav-link" href="#">Contact</a>
-    <a class="flex-sm-fill text-sm-center nav-link" href="#">Our Shop</a>
-    <a class="flex-sm-fill text-sm-center nav-link" href="#">Sale
-       <ul class="navbar-nav font-nav  flex-row justify-content-center">
-          <li class="font-item " >
-            <a class="font-size" href="#">A</a>
-    </li>
-    <li class="font-item">
-      <a class="font-size" href="#">A</a>
-    </li>
-    <li class="font-item">
-      <a class="font-size" href="#">A</a>
-    </li>
-    </ul>
-    </a>
-  </nav>
-
-<!--Slider-->
-
-
-  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-    <ol class="carousel-indicators">
-      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-    </ol>
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <div class="carousel-caption d-none d-md-block">
-          <h5>Workspace</h5>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,<br> do eiusmod tempor incididunt ut labore et dolore magna. </p>
-        </div>
-        <img class="d-block w-100" src="img/breather-196132.png" alt="First slide">
-      </div>
-      <div class="carousel-item">
-        <div class="carousel-caption d-none d-md-block">
-          <h5>Workspace</h5>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,<br> do eiusmod tempor incididunt ut labore et dolore magna. </p>
-        </div>
-        <img class="d-block w-100" src="img/breather-196132.png" alt="Second slide">
-      </div>
-      <div class="carousel-item">
-        <div class="carousel-caption d-none d-md-block">
-          <h5>Workspace</h5>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,<br> do eiusmod tempor incididunt ut labore et dolore magna. </p>
-        </div>
-        <img class="d-block w-100" src="img/breather-196132.png" alt="Third slide">
-      </div>
-    </div>
-    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-  </div>
 
 
 
 
-  <!--LATES News block-->
+    <!--LATES News block-->
     <div class="container my-5">
       <h2 class="text-center title-block">Lates News</h2>
     </div>
@@ -213,32 +217,32 @@
     </div>
     
     
- <!--paralax   -->
- 
-  <div class=" row head parallax-window mt-5" data-parallax="scroll" data-image-src="img/paralax.jpg"  naturalHeight>
-    <div class=" col-12 text-center align-middle mt-5 ">
-                <h5 class="card-title m-4">Our Vision</h5>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit,<br> sed do eiusmod tempor incididunt.</p>
-                <i class="fa fa-handshake-o" aria-hidden="true"></i>
-              </div>
+    <!--paralax   -->
+
+    <div class=" row head parallax-window mt-5" data-parallax="scroll" data-image-src="img/paralax.jpg"  naturalHeight>
+      <div class=" col-12 text-center align-middle mt-5 ">
+        <h5 class="card-title m-4">Our Vision</h5>
+        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit,<br> sed do eiusmod tempor incididunt.</p>
+        <i class="fa fa-handshake-o" aria-hidden="true"></i>
+      </div>
+    </div>
+
+
+    <!--gitft-->
+
+    <div class="row navbar mt-1">
+     <div class=" col-12 text-center align-middle card-title ">
+      <p><i class="fa fa-gift mr-4" aria-hidden="true"></i>
+        <b>Let them decide!</b> Pick out a
+        <a  href="#">Gift Card</a>
+      and give them choice!</p>
+    </div>
   </div>
 
 
-<!--gitft-->
 
-<div class="row navbar mt-1">
-   <div class=" col-12 text-center align-middle card-title ">
-  <p><i class="fa fa-gift mr-4" aria-hidden="true"></i>
-  <b>Let them decide!</b> Pick out a
-  <a  href="#">Gift Card</a>
-   and give them choice!</p>
-   </div>
-</div>
-
-
-
-<!-- Footer -->
-<footer class="page-footer font-small indigo">
+  <!-- Footer -->
+  <footer class="page-footer font-small white">
 
     <!-- Footer Links -->
     <div class="container text-center text-md-left">
@@ -250,8 +254,8 @@
         <div class="col-md-3 mx-auto">
 
           <!-- Links -->
-          <h5 class="font-weight-bold text-uppercase mt-3 mb-4">HELP & CONTACT
-</h5>
+          <h5 class=" text-uppercase mt-3 mb-4">HELP & CONTACT
+          </h5>
 
           <ul class="list-unstyled">
             <li>
@@ -277,7 +281,7 @@
         <div class="col-md-3 mx-auto">
 
           <!-- Links -->
-          <h5 class="font-weight-bold text-uppercase mt-3 mb-4">business</h5>
+          <h5 class=" text-uppercase mt-3 mb-4">business</h5>
 
           <ul class="list-unstyled">
             <li>
@@ -293,7 +297,7 @@
               <a href="#!">Blog</a>
             </li>
           </ul>
-   </div>
+        </div>
         <!-- Grid column -->
 
         <hr class="clearfix w-100 d-md-none">
@@ -302,20 +306,24 @@
         <div class="col-md-3 mx-auto">
 
           <!-- Links -->
-          <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Top Categories</h5>
+          <h5 class=" text-uppercase mt-3 mb-4">Top Categories</h5>
 
-          <ul class="list-unstyled">
-            <li>
+          <ul class="list-unstyled black">
+            <li  class="d-flex justify-content-between">
               <a href="#!">Contact Us</a>
+              <i class="fa fa-plus" aria-hidden="true"></i>
             </li>
-            <li>
+            <li class="d-flex justify-content-between">
               <a href="#!">Buy Gift Vouchers</a>
+              <i class="fa fa-plus" aria-hidden="true"></i>
             </li>
-            <li>
+            <li class="d-flex justify-content-between">
               <a href="#!">Voucher Information</a>
+              <i class="fa fa-plus" aria-hidden="true"></i>
             </li>
-            <li>
+            <li class="d-flex justify-content-between">
               <a href="#!">Student Discount</a>
+              <i class="fa fa-plus" aria-hidden="true"></i>
             </li>
           </ul>
 
@@ -328,7 +336,7 @@
         <div class="col-md-3 mx-auto">
 
           <!-- Links -->
-          <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Account</h5>
+          <h5 class=" text-uppercase mt-3 mb-4">Account</h5>
 
           <ul class="list-unstyled">
             <li>
@@ -353,21 +361,28 @@
     <!-- Footer Links -->
 
     <!-- Copyright -->
-    <div class="footer-copyright text-center py-3">© Copyright Workspace & Co, All Rights Reserved.    </div>
-    <!-- Copyright -->
+    <div class="footer-copyright text-center p-5">
+      <div>
+       <a  href="#"><img class="footerLogo" src="img/Logo.png" alt="logo"></a>
+     </div>
+     <div class="footer-copyright text-center py-3">
+      © Copyright Workspace & Co, All Rights Reserved.
+    </div>  
+  </div>
+  <!-- Copyright -->
 
-  </footer>
-  <!-- Footer -->
-  <!-- JavaScript Libraries -->
-  <script src="lib/jquery/jquery-3.3.1.js"></script>
-  <script src="lib/jquery/jquery-migrate.min.js"></script>
-  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="lib/easing/easing.min.js"></script>
-  <script src="lib/wow/wow.min.js"></script>
-  <script src="lib/superfish/hoverIntent.js"></script>
-  <script src="lib/superfish/superfish.min.js"></script>
-  <script src="lib/magnific-popup/magnific-popup.min.js"></script>
-  <script src="lib/parallax/parallax.min.js"></script>
+</footer>
+<!-- Footer -->
+<!-- JavaScript Libraries -->
+<script src="lib/jquery/jquery-3.3.1.js"></script>
+<script src="lib/jquery/jquery-migrate.min.js"></script>
+<script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="lib/easing/easing.min.js"></script>
+<script src="lib/wow/wow.min.js"></script>
+<script src="lib/superfish/hoverIntent.js"></script>
+<script src="lib/superfish/superfish.min.js"></script>
+<script src="lib/magnific-popup/magnific-popup.min.js"></script>
+<script src="lib/parallax/parallax.min.js"></script>
 
 
 </body>
